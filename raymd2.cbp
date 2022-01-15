@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rayblitz" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/raymd2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/media/djoker/code/local/user/include" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="src/blitz" />
+				</Compiler>
+				<Linker>
+					<Add option="-lraylib" />
+					<Add directory="/media/djoker/code/local/user/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/raymd2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/FSM.h" />
+		<Unit filename="include/MD2.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/FSM.cpp" />
+		<Unit filename="src/MD2.cpp" />
+		<Unit filename="src/blitz/animation.h" />
+		<Unit filename="src/blitz/animator.h" />
+		<Unit filename="src/blitz/bd2model.h" />
+		<Unit filename="src/blitz/blitz3d.h" />
+		<Unit filename="src/blitz/brush.h" />
+		<Unit filename="src/blitz/cachedtexture.h" />
+		<Unit filename="src/blitz/camera.h" />
+		<Unit filename="src/blitz/collision.h" />
+		<Unit filename="src/blitz/config.h" />
+		<Unit filename="src/blitz/emitter.h" />
+		<Unit filename="src/blitz/entity.h" />
+		<Unit filename="src/blitz/entityutil.h" />
+		<Unit filename="src/blitz/frustum.h" />
+		<Unit filename="src/blitz/geom.h" />
+		<Unit filename="src/blitz/group.h" />
+		<Unit filename="src/blitz/light.h" />
+		<Unit filename="src/blitz/listener.h" />
+		<Unit filename="src/blitz/loader.h" />
+		<Unit filename="src/blitz/loader_3ds.h" />
+		<Unit filename="src/blitz/loader_b3d.h" />
+		<Unit filename="src/blitz/loader_x.h" />
+		<Unit filename="src/blitz/md2model.h" />
+		<Unit filename="src/blitz/md2norms.h" />
+		<Unit filename="src/blitz/md2rep.h" />
+		<Unit filename="src/blitz/mesh.h" />
+		<Unit filename="src/blitz/meshcollider.h" />
+		<Unit filename="src/blitz/meshloader.h" />
+		<Unit filename="src/blitz/meshmodel.h" />
+		<Unit filename="src/blitz/meshrenderer.h" />
+		<Unit filename="src/blitz/meshutil.h" />
+		<Unit filename="src/blitz/mirror.h" />
+		<Unit filename="src/blitz/model.h" />
+		<Unit filename="src/blitz/ms3drep.h" />
+		<Unit filename="src/blitz/object.h" />
+		<Unit filename="src/blitz/pivot.h" />
+		<Unit filename="src/blitz/planemodel.h" />
+		<Unit filename="src/blitz/q3bspmodel.h" />
+		<Unit filename="src/blitz/q3bsprep.h" />
+		<Unit filename="src/blitz/rendercontext.h" />
+		<Unit filename="src/blitz/skinmodel.h" />
+		<Unit filename="src/blitz/sprite.h" />
+		<Unit filename="src/blitz/std.h" />
+		<Unit filename="src/blitz/stdutil.h" />
+		<Unit filename="src/blitz/surface.h" />
+		<Unit filename="src/blitz/terrain.h" />
+		<Unit filename="src/blitz/terrainmodel.h" />
+		<Unit filename="src/blitz/terrainrep.h" />
+		<Unit filename="src/blitz/texture.h" />
+		<Unit filename="src/blitz/texturecache.h" />
+		<Unit filename="src/blitz/world.h" />
+		<Unit filename="src/imconfig.h" />
+		<Unit filename="src/imgui.cpp" />
+		<Unit filename="src/imgui.h" />
+		<Unit filename="src/imgui_draw.cpp" />
+		<Unit filename="src/imgui_internal.h" />
+		<Unit filename="src/imgui_widgets.cpp" />
+		<Unit filename="src/imstb_rectpack.h" />
+		<Unit filename="src/imstb_textedit.h" />
+		<Unit filename="src/imstb_truetype.h" />
+		<Unit filename="src/rImgui.cpp" />
+		<Unit filename="src/rImgui.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
