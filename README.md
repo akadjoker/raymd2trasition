@@ -6,6 +6,4 @@ This project utilizes the Raylib game development library to load MD2 models and
 
 # Some screenshots
 ![anim](screenrec004.gif)
-![image](screenshot000.png)
-![image](screenshot001.png)
-![image](screenshot002.png)
+
